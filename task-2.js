@@ -7,4 +7,8 @@ const person = {
 };
 
 // Increase the `age` by 1:
+person.age += 1;
 // write your code here
+
+console.log(person);
+

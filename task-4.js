@@ -7,3 +7,6 @@ const person = {
 };
 
 // Add a new property fullName to the object
+person.fullName = `${person.firstName} ${person.lastName}`;
+
+console.log(person);
